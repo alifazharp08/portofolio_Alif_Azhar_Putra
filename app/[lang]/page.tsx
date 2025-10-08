@@ -8,10 +8,6 @@ import { Expertise } from "@/components/sections/expertise"
 import { Experience } from "@/components/sections/experience"
 import { getDict, type Lang } from "@/lib/copy"
 
-export function generateStaticParams() {
-  return [{ lang: "en" }, { lang: "id" }]
-}
-
 export async function generateMetadata({
   params,
 }: {
